@@ -85,7 +85,7 @@
               class="px-6 py-3 rounded-xl text-sm font-medium transition-all duration-200 relative border-none focus:outline-none"
               :class="
                 activeTab === tab.id
-                  ? 'bg-white text-blue-600 focus:ring-2 focus:ring-blue-500'
+                  ? 'bg-white text-blue-600'
                   : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
               "
               @click="activeTab = tab.id"
