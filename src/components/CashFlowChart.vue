@@ -9,15 +9,15 @@
 
       <!-- Stats Row -->
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
-        <div class="bg-white rounded-2xl p-5 shadow-md border border-gray-100 flex flex-col items-center">
+        <div class="bg-white rounded-2xl p-5 shadow-lg border border-gray-100 flex flex-col items-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
           <span class="text-sm text-gray-500 mb-1">Total Inflow</span>
           <span class="text-2xl font-bold text-green-600">€{{ totalInflow }}</span>
         </div>
-        <div class="bg-white rounded-2xl p-5 shadow-md border border-gray-100 flex flex-col items-center">
+        <div class="bg-white rounded-2xl p-5 shadow-lg border border-gray-100 flex flex-col items-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
           <span class="text-sm text-gray-500 mb-1">Total Outflow</span>
           <span class="text-2xl font-bold text-red-500">€{{ totalOutflow }}</span>
         </div>
-        <div class="bg-white rounded-2xl p-5 shadow-md border border-gray-100 flex flex-col items-center">
+        <div class="bg-white rounded-2xl p-5 shadow-lg border border-gray-100 flex flex-col items-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
           <span class="text-sm text-gray-500 mb-1">Net Flow</span>
           <span :class="'text-2xl font-bold ' + (totalNetFlowNumber >= 0 ? 'text-blue-600' : 'text-red-600')">€{{ totalNetFlow }}</span>
         </div>
